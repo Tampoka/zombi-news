@@ -1,3 +1,4 @@
+
 export type UriString = string
 export type UniqueString = string
 export type EntityId = number | UniqueString
