@@ -1,11 +1,10 @@
-
 export type UriString = string
 export type UniqueString = string
 export type EntityId = number | UniqueString
 export type DateIsoString = string
 
 export type Post = {
-    id: EntityId
+    _id: EntityId
     date: DateIsoString
     category: Category
     title: string
