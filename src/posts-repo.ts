@@ -8,6 +8,7 @@ const postsSchema = new Schema<IPost>({
     lead: String,
     content: String,
     source: String,
+    image:String
 })
 
 const Post = model<IPost>('post', postsSchema)
@@ -29,3 +30,4 @@ module.exports = {
     getPostById,
     getPostsByCategory
 }
+
