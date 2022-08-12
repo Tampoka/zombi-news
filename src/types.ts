@@ -19,7 +19,7 @@ export type Category = "科学・IT" | "社会" | "経済"
 export type Person = string
 export type RelativeTime = string
 
-export interface Comment {
+export interface IComment {
     readonly _id: EntityId
     author: Person
     content: string
